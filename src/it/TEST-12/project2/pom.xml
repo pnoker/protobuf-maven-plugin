@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  ~ Copyright (c) 2016 Maven Protocol Buffers Plugin Authors. All rights reserved.
+  ~ Copyright 2016-present the IoT DC3 original author or authors.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
   ~ You may obtain a copy of the License at
   ~
-  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~      https://www.apache.org/licenses/LICENSE-2.0
   ~
   ~ Unless required by applicable law or agreed to in writing, software
   ~ distributed under the License is distributed on an "AS IS" BASIS,
@@ -23,7 +23,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.xolstice.maven.plugins.protobuf.its</groupId>
+        <groupId>io.github.pnoker.maven.plugins.protobuf.its</groupId>
         <artifactId>test-12-parent</artifactId>
         <version>1.0.0</version>
     </parent>
@@ -35,7 +35,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.xolstice.maven.plugins</groupId>
+                <groupId>io.github.pnoker.maven.plugins</groupId>
                 <artifactId>protobuf-maven-plugin</artifactId>
                 <executions>
                     <execution>

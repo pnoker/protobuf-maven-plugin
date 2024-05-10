@@ -6,7 +6,7 @@ This license applies to all parts of Maven Protocol Buffers Plugin except the fo
     please see the NOTICE file for licensing details.
 
 Maven Protocol Buffers Plugin
-Copyright (c) 2016 Maven Protocol Buffers Plugin Authors. All rights reserved.
+Copyright 2016-present the IoT DC3 original author or authors.
 
 ================================================================================
 
@@ -205,7 +205,7 @@ Copyright (c) 2016 Maven Protocol Buffers Plugin Authors. All rights reserved.
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,

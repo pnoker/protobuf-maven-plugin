@@ -18,6 +18,9 @@ install:
   # These include protoc and grpc plugin executables being referenced in toolchains.xml
   - cmd: mvnw.cmd -B -V -Dstyle.color=always -Djansi.passthrough=true dependency:go-offline -f src/it/dependencies/pom.xml -P protoc-3.4.0
   - cmd: mvnw.cmd -B -V -Dstyle.color=always -Djansi.passthrough=true dependency:go-offline -f src/it/dependencies/pom.xml -P protoc-3.11.1
+  - cmd: mvnw.cmd -B -V -Dstyle.color=always -Djansi.passthrough=true dependency:go-offline -f src/it/dependencies/pom.xml -P protoc-3.21.11
+  - cmd: mvnw.cmd -B -V -Dstyle.color=always -Djansi.passthrough=true dependency:go-offline -f src/it/dependencies/pom.xml -P protoc-3.25.3
+  - cmd: mvnw.cmd -B -V -Dstyle.color=always -Djansi.passthrough=true dependency:go-offline -f src/it/dependencies/pom.xml -P protoc-4.26.1
   - cmd: mvnw.cmd -B -V -Dstyle.color=always -Djansi.passthrough=true dependency:go-offline -P run-its
 
 build_script:

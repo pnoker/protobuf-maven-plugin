@@ -5,15 +5,16 @@ about: Create a report to help us improve
 ---
 
 **Before submitting a bug report**
+
 - [ ] Check the existing issues, please avoid submitting duplicates
-- [ ] Check the [FAQ](https://www.xolstice.org/protobuf-maven-plugin/faq.html) for known problems
-- [ ] Try asking on [Gitter](https://gitter.im/xolstice/protobuf-maven-plugin)
+- [ ] Check the [FAQ](https://github.com/pnoker/protobuf-maven-plugin/issues) for known problems
 
 **Describe the bug**
 <!-- A clear and concise description of what the bug is -->
 
 **Environment**
 <!-- Please paste the output of `mvn --version` below: -->
+
 ```
 ...
 ```
@@ -23,17 +24,20 @@ Are you are running Maven inside an IDE, and in that case, which IDE?
 
 **Plugin configuration**
 <!-- Paste below the relevant section(s) from your POM, or a link to a gist containing the entire POM -->
+
 ```
 ...
 ```
 
 **To Reproduce**
 Steps to reproduce the behavior:
+
 1. ...
 2. ...
 
 **Log output**
 <!-- Please paste the relevant portion of maven log output below -->
+
 ```
 ...
 ```
